@@ -38,6 +38,8 @@ var thirdGamer = Gamer(charName: "Sova", charProperty: "Observer")
 var fourthGamer = Gamer(charName: "Chamber", charProperty: "Sentinel")
 var fifthGamer = Gamer(charName: "Sage", charProperty: "Healer")
 
+// MARK: Listeleme Sayfasındaki Print İşlemleri
+
 func printOffer() {
     print("Giriş İşleminiz Başarı İle Gerçekleşmiştir.")
     print("*******************************************")
@@ -45,6 +47,8 @@ func printOffer() {
     print("********************************")
     print("Size Önerdiğimiz Silahlar:")
 }
+
+// MARK: Silah Özellikleri ve Bakiye Bilgisi
 
 func printDamage(hs: Int, bs: Int, ls: Int, amount: Int) {
     print("Silah Özellikleri")
@@ -54,6 +58,8 @@ func printDamage(hs: Int, bs: Int, ls: Int, amount: Int) {
     print("Silah Fiyatı:\(amount)Gold")
     print("Lütfen Bakiye Bilginizi Giriniz:")
 }
+
+// MARK: Bakiye Kontrolü
 
 func price(amount: Int) {
     if let balance = readLine() {
@@ -66,6 +72,8 @@ func price(amount: Int) {
         }
     }
 }
+
+// MARK: Seçilen Silah ile Inputun Kontrolü
 
 func gun(gunName: String) {
     if gunName == "vandal" {
@@ -131,6 +139,8 @@ func buyItem() {
     print("********************************")
     gun(gunName: buyItem!)
 }
+
+// MARK: Kullanıcı Giriş Bilgileri, Girilen Bilgilerin Kontrolü
 
 print("Hoş Geldiniz!")
 print("*************")
