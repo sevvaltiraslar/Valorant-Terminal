@@ -1,12 +1,3 @@
-# week1_work1
-ilk ödev
-
-# Pazarama iOS Bootcamp – Hafta 1 – Ödev  
-Bir konsept üzerine kurulu pazar yeri uygulaması yapacağız. Bu konsept bir film, anime, video
-oyun, kitap vb. herhangi bir fikri mülk üstüne kurulabilir. Konsept yazılım geliştirme
-süreçlerini çok etkilemese de(ki etkileye de bilir) süreci eğlenceli ve üretken bir hale
-getirebilir. Konsept seçiminde saçmalamaktan çekinmeyin. 🤘🏻
-Aşağıda bir örnek üstünden yapacağımız uygulama ile ilgili detaylara erişebilirsiniz.  
 
 # Şirinlesene  
 Şirinlesene uygulaması, şirinler köyünde kullanılmak üzere geliştirilmiş bir pazar yeri
